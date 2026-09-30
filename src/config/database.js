@@ -9,7 +9,6 @@ export default {
     url: env.db_url,
     dialect: "postgres",
   },
-
   production: {
     url: env.db_url,
     dialect: "postgres",
