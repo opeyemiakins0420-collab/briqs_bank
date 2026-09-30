@@ -1,4 +1,5 @@
 import { hashPassword } from "../lib/bcrypt.js";
+import { db } from "../lib/db.js";
 import { saveBankDetails } from "../repositories/bank.repository.js";
 import {
   findUserByEmail,
