@@ -13,7 +13,7 @@ export default {
   production: {
     url: env.db_url,
     dialect: "postgres",
-    dialectpoptions: {
+    dialectOptions: {
       ssl: {
         require: true,
         rejectUnauthorized: false,
